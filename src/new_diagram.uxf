@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1.0">
+  <zoom_level>4</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>264</x>
+      <y>164</y>
+      <w>124</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>Shield 
+--
+-hero: String
+-villian: String
+--
++getOrigin(): String
++getLocation(): String
++getStatus(): String
++getSuperPeople(): String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>300</x>
+      <y>224</y>
+      <w>20</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>30.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>380</x>
+      <y>404</y>
+      <w>84</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>Super Villian
+--
++getOrigin(): String
++getLocation(): String
++getStatus(): String
++getWeakness():String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>256</x>
+      <y>264</y>
+      <w>104</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>SuperPeople
+--
+-hero: String
+-villian: String
+--
++getHero(): String
++setHero(heroName:String): void
++getVillian(): String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>148</x>
+      <y>412</y>
+      <w>84</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>Avenger
+--
++getOrigin(): String
++getLocation(): String
++getStatus(): String
++getStrength():String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>356</x>
+      <y>324</y>
+      <w>60</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;130.0;200.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>228</x>
+      <y>324</y>
+      <w>72</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>160.0;10.0;10.0;220.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>268</x>
+      <y>532</y>
+      <w>84</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>HealthPoint
+--
+
+getHP():int
+HpDown():int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>228</x>
+      <y>484</y>
+      <w>68</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;150.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>344</x>
+      <y>476</y>
+      <w>44</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>90.0;10.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>388</x>
+      <y>220</y>
+      <w>172</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;410.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>552</x>
+      <y>180</y>
+      <w>84</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>Jarvis
+--
+getOperation():String
+getPercentSuccess():int
+getUsername():String
+getStatus():String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>648</x>
+      <y>304</y>
+      <w>84</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>UserDatabase
+--
+getPassword():String,int
+getUserName():String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>632</x>
+      <y>252</y>
+      <w>24</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>520</x>
+      <y>452</y>
+      <w>84</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>MissionCalculator
+--
+getHP():int
+getPercentSuccess():int
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>516</x>
+      <y>252</y>
+      <w>48</w>
+      <h>212</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>100.0;10.0;10.0;510.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>348</x>
+      <y>524</y>
+      <w>176</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;20.0;420.0;10.0</additional_attributes>
+  </element>
+</diagram>
