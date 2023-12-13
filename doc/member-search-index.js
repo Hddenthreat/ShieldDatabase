@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"ShieldDatabase","c":"Jarvis","l":"Jarvis()","u":"%3Cinit%3E()"},{"p":"ShieldDatabase","c":"Jarvis","l":"winnerPanel()"}];updateSearchResults();
